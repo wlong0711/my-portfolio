@@ -44,7 +44,7 @@ export default function Navbar() {
 
           {/* 3. THE "GLITCH" RESUME BUTTON */}
           <motion.a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1qpJ1vvJKeC8kuZkj3xxI0jrEFOdHKB3Y/view?usp=sharing"
             target="_blank"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -86,7 +86,7 @@ export default function Navbar() {
                 </li>
               ))}
               <li>
-                  <a href="/resume.pdf" className="text-neon-blue font-bold border border-neon-blue px-6 py-2 rounded-lg bg-neon-blue/10">
+                  <a href="https://drive.google.com/file/d/1qpJ1vvJKeC8kuZkj3xxI0jrEFOdHKB3Y/view?usp=sharing" className="text-neon-blue font-bold border border-neon-blue px-6 py-2 rounded-lg bg-neon-blue/10">
                       Resume
                   </a>
               </li>
