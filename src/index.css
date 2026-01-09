@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Define your custom Neon Theme variables here */
+@theme {
+  --color-glass: rgba(255, 255, 255, 0.1);
+  --color-neon-blue: #8A2BE2;
+  --color-neon-pink: #2E5CB8;
+  
+  --font-sans: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #0a0a12; /* Deep Void Dark */
+  color: white;
+  overflow-x: hidden;
+}
