@@ -38,7 +38,7 @@ export default function About() {
               </div>
               <div className="border-t border-white/10 pt-4">
                 <h4 className="text-lg text-gray-200 font-semibold">Foundation in Physical Science</h4>
-                <p className="text-neon-pink text-sm">UTM SPACE</p>
+                <p className="text-neon-pink text-sm">UTM SPACE (2020 - 2021)</p>
                 <p className="text-gray-400">CGPA: 3.80</p>
               </div>
             </div>
@@ -61,11 +61,11 @@ export default function About() {
             <div className="relative border-l border-white/20 pl-6 ml-2 space-y-8">
               <div className="relative">
                 <span className="absolute -left-[31px] top-1 w-4 h-4 bg-neon-pink rounded-full shadow-[0_0_10px_var(--color-neon-pink)]"></span>
-                <h4 className="text-xl text-gray-200 font-semibold">Software Engineer Intern</h4>
+                <h4 className="text-xl text-gray-200 font-semibold">Industrial Trainee (Internship)</h4>
                 <p className="text-neon-blue text-sm mb-2">Venture Technocom System Sdn Bhd | Oct 2024 - Jan 2025</p>
                 <ul className="list-disc list-outside text-gray-400 text-sm space-y-1 ml-4">
-                  <li>Analyzed and simulated production workflows in MES environments.</li>
-                  <li>Provided technical support and hardware troubleshooting.</li>
+                  <li>Analyzed and simulated production workflows within the Manufacturing Execution System (MES) test environment to understand routing processes and work order lifecycles.</li>
+                  <li>Assist senior engineers in providing on-site technical support and hardware troubleshooting.</li>
                 </ul>
               </div>
             </div>

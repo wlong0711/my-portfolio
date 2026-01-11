@@ -50,13 +50,13 @@ export default function ProjectCard({ project, index }) {
           >
             <FaGithub size={18} /> Code
           </a> */}
-          <a 
+          {/* <a 
             href={project.demo} 
             target="_blank" 
             className="flex items-center gap-2 text-sm text-neon-blue hover:text-white transition-colors"
           >
             <FaExternalLinkAlt size={16} /> Visit Project
-          </a>
+          </a> */}
         </div>
       </div>
     </motion.div>

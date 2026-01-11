@@ -1,34 +1,35 @@
 import ProjectCard from "./ProjectCard";
+import easyCookImg from "../assets/easycook.png";
 
 export default function Projects() {
   const projects = [
     {
       title: "SportHall",
-      description: "A MERN stack booking platform for sports courts. Features complex conflict detection algorithms to prevent double-bookings, an interactive Admin Dashboard, and JWT authentication.",
+      description: "A MERN stack booking platform based on the Sport Hall in Universiti Teknologi Malaysia. Features conflict detection algorithms to prevent double-bookings, an interactive Admin Dashboard, and JWT authentication.",
       tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
       image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop", // Placeholder: Gym/Sport
     //   github: "#", // Add your real link later
     //   demo: "#"
     },
     {
-      title: "EasyCook AI",
+      title: "EasyCook",
       description: "An AI-powered mobile app that recommends recipes by recognizing ingredients from photos. Integrated Gemini 1.5 Flash model and Spoonacular API.",
-      tech: ["Flutter", "Dart", "Firebase", "Gemini AI", "MVVM"],
-      image: "https://images.unsplash.com/photo-1556910103-1c02745a30bf?q=80&w=1470&auto=format&fit=crop", // Placeholder: Cooking
+      tech: ["Flutter", "Dart", "Firebase", "Gemini AI", "MVVM", "Spoonacular API"],
+      image: easyCookImg, // Placeholder: Cooking
     //   github: "#",
     //   demo: "#"
     },
-    {
-      title: "Online Learning Platform",
-      description: "A comprehensive e-learning system with course management and quizzes. Built with Vue 3 using MVC architecture and role-based access control.",
-      tech: ["Vue.js", "Firebase", "MongoDB", "JavaScript"],
-      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1374&auto=format&fit=crop", // Placeholder: Education
-    //   github: "#",
-    //   demo: "#"
-    },
+    // {
+    //   title: "Online Learning Platform",
+    //   description: "A comprehensive e-learning system with course management and quizzes. Built with Vue 3 using MVC architecture and role-based access control.",
+    //   tech: ["Vue.js", "Firebase", "MongoDB", "JavaScript"],
+    //   image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1374&auto=format&fit=crop", // Placeholder: Education
+    // //   github: "#",
+    // //   demo: "#"
+    // },
     {
       title: "RecycleGo",
-      description: "Location-based recycling app promoting eco-friendly habits. Integrated Google Maps API for tracking and JIRA for Agile project management.",
+      description: "Location-based recycling app promoting eco-friendly habits in University area. Integrated Google Maps API for tracking and JIRA for Agile project management.",
       tech: ["Flutter", "Google Maps API", "Firebase", "Agile"],
       image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=1470&auto=format&fit=crop", // Placeholder: Recycling
     //   github: "#",
